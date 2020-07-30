@@ -1,0 +1,212 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+    font-size: 66px; font-weight: 600; line-height: 80px;
+    background-color: rgba(255, 255, 255, 0.507);
+    font-family: 'Squada One', cursive;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+p{
+    font-size: 18px;
+    color: white;
+    line-height: 1.8;;
+    margin-bottom: 0;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+section{
+    padding: 100px 0;
+
+}
+
+.topmargin-xs{ margin-top: 15;}
+.topmargin-sm{ margin-top: 30px;}
+.topmargin-lg{margin-top: 60px;}
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+.btn-light{
+    background-color: rgba(255, 123, 0, 0.856);
+    color: rgb(0, 0, 0);
+    border: 2px solid #ffffff;
+    font-family: 'Squada One', cursive;
+    font-size: large;
+}
+
+.btn i{
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.navbar{
+    background-color: rgb(40, 53, 68);
+    box-shadow: gainsboro;
+    min-height: 100px;
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+.nav-link:hover{
+    color: rgb(51, 190, 255);
+    margin: 1px;
+
+}
+.logo-brand{
+    min-width: 120px;
+    max-width: 150px;
+}
+
+.navba-toggler{ font-size: 40px;}
+.navbar-toggler:focus {outline: none;}
+
+#perro {
+    background-image: url('img/PERRO.png');
+    background-size: cover;
+    padding-top: 200px;
+    min-height: 700px;
+    color: rgb(3, 101, 192);
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+#perro :hover{
+    text-decoration: none;
+}
+
+#perro p{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.507);
+
+}
+
+.content-center{
+    max-width: 800;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.portfolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+    font-family: 'Squada One', cursive;
+    font-size: small;
+
+}
+
+.portfolio-container img{
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.portfolio-container:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+
+
+.portfolio-details{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    z-index: 9000;
+
+}
+
+.portfolio-details a h2, .portfolio-details a p {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.589);
+    padding-left: inherit;
+}
+
+
+.info-container{
+    width: 100%;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.info-main{
+    width: 98%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 30px 200px;
+    background: #FFB75E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ED8F03, #FFB75E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+
+}
+.info-main h3{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.info-main p{
+    padding: 20px 0;
+    color: black;
+}
+
+.info-main a{
+    display: inline-block;
+    background:rgba(140, 0, 255, 0.856);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 12px 20px ;
+    font-family: 'Squada One', cursive;
+    border-radius: 1%;
+}
+
+h6{
+    font-size: medium;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.youtube{
+    padding-top: 10px;
+}
+
+}
+<!-- Media query -->
+@media (max-width: 575.98px) {
+    h1{
+        font-size: 40px; line-height: normal;
+    }
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+@media (min-width: 1200px) { ... }
